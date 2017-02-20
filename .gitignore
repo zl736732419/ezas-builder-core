@@ -2,3 +2,5 @@
 /.settings/
 /.classpath
 /.project
+/.idea/
+/ezas-builder-core.iml
