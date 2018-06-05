@@ -30,5 +30,4 @@
 		<!-- 由于其框架也使用了Ehcache, 保证各方都使用同一个缓存管理器 -->
 		<property name="shared" value="true" />
 	</bean>
-	<bean id="SpringContextUtil" class="com.ez.commons.spring.SpringContextUtil"></bean>
 </beans>

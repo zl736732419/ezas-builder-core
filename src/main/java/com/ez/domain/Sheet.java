@@ -18,7 +18,108 @@ public class Sheet {
 	private Integer gridType; //方格类型
 	private Integer copyRight; //是否包含版权信息
 	private Integer studentTemplateEnable; //是否包含考生信息
-	
-	
-	
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getSubTitle() {
+		return subTitle;
+	}
+
+	public void setSubTitle(String subTitle) {
+		this.subTitle = subTitle;
+	}
+
+	public String getSubject() {
+		return subject;
+	}
+
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+
+	public String getSheetType() {
+		return sheetType;
+	}
+
+	public void setSheetType(String sheetType) {
+		this.sheetType = sheetType;
+	}
+
+	public Integer getNum() {
+		return num;
+	}
+
+	public void setNum(Integer num) {
+		this.num = num;
+	}
+
+	public Integer getOmrSize() {
+		return omrSize;
+	}
+
+	public void setOmrSize(Integer omrSize) {
+		this.omrSize = omrSize;
+	}
+
+	public Integer getPrintType() {
+		return printType;
+	}
+
+	public void setPrintType(Integer printType) {
+		this.printType = printType;
+	}
+
+	public Integer getEnableABSheetType() {
+		return enableABSheetType;
+	}
+
+	public void setEnableABSheetType(Integer enableABSheetType) {
+		this.enableABSheetType = enableABSheetType;
+	}
+
+	public Integer getSheetColor() {
+		return sheetColor;
+	}
+
+	public void setSheetColor(Integer sheetColor) {
+		this.sheetColor = sheetColor;
+	}
+
+	public Integer getGridType() {
+		return gridType;
+	}
+
+	public void setGridType(Integer gridType) {
+		this.gridType = gridType;
+	}
+
+	public Integer getCopyRight() {
+		return copyRight;
+	}
+
+	public void setCopyRight(Integer copyRight) {
+		this.copyRight = copyRight;
+	}
+
+	public Integer getStudentTemplateEnable() {
+		return studentTemplateEnable;
+	}
+
+	public void setStudentTemplateEnable(Integer studentTemplateEnable) {
+		this.studentTemplateEnable = studentTemplateEnable;
+	}
 }
